@@ -133,7 +133,6 @@ public class TestLoanClass {
             myLoanAmount = 0;
             // increment the month count
             month++;
-        }
 	  }
 	  double interestSaved = l.getTotalInterest() - totalInterest;
 	  System.out.printf("Total interest $%.2f%nTotal interest saved $%.2f%nTotal months %d %n",
